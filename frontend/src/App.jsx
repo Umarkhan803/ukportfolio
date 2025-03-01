@@ -1,9 +1,13 @@
+import SideBar from "../components/SideBar";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>portfolio</h1>
+      <BrowserRouter>
+        <SideBar />
+      </BrowserRouter>
     </>
   );
 }
