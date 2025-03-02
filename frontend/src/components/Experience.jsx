@@ -27,13 +27,13 @@ const Experience = () => {
         "Built RESTful APIs and integrated third-party services",
         "Implemented authentication and authorization using JWT",
         "Created responsive and mobile-friendly user interfaces",
-        "Collaborated with cross-functional teams to deliver projects on schedule",
+        "Collaborated with cross-f  unctional teams to deliver projects on schedule",
       ],
     },
     {
-      period: "2016 - 2018",
-      title: "Junior Web Developer",
-      company: "WebTech Studios",
+      period: "2024 - 2018",
+      title: " Web Developer",
+      company: "Afame Technology",
       description:
         "Started my career as a junior developer focusing on front-end development. Gradually transitioned to full-stack development with MERN technologies.",
       responsibilities: [
@@ -75,7 +75,7 @@ const Experience = () => {
                   </h4>
                   <p className="text-gray-600">{exp.description}</p>
                 </div>
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-[#1E88E5] border-4 border-white shadow-lg flex items-center justify-center">
+                <div className=" flex justify-center p-2.5 items-center md:block absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-[#1E88E5] border-4 border-white shadow-lg ">
                   <svg
                     className="w-5 h-5 text-white"
                     fill="none"
