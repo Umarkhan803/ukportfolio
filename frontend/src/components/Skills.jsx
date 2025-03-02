@@ -46,7 +46,7 @@ const otherSkills = [
   "TypeScript",
   "Zustand",
   "Material UI",
-"Context API",
+  "Context API",
   "Redux Toolkit",
   "Responsive Design",
   "Firebase",
