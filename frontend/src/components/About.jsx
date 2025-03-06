@@ -25,7 +25,7 @@ const About = () => {
               <div className="absolute -inset-1 rounded-[50%] bg-gradient-to-r from-[#1E88E5] to-[#FFC107] opacity-75 blur"></div>
               <div className="relative bg-white p-4  shadow-lg rounded-[50%]">
                 <div className="aspect-square bg-neutral-200 rounded-[50%] flex items-center justify-center">
-                 <img className=" rounded-[50%] h-[100%] w-[100%]" src="profile.jpeg" alt="profile" />
+                 <img className="object-cover rounded-[50%] h-[100%] w-[100%]" src="profile.jpeg" alt="profile" />
                 </div>
               </div>
             </div>
