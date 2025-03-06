@@ -13,22 +13,7 @@ const Projects = () => {
       </p>
     </div>
 
-    <div className="flex mb-8 justify-center">
-      <div className="inline-flex rounded-md shadow-sm" role="group">
-        <button type="button" className="project-filter-btn px-5 py-2 text-sm font-medium rounded-l-lg active bg-[#1E88E5] text-white" data-filter="all">
-          All Projects
-        </button>
-        <button type="button" className="project-filter-btn px-5 py-2 text-sm font-medium hover:bg-gray-200 bg-gray-100 text-gray-800" data-filter="frontend">
-          Frontend
-        </button>
-        <button type="button" className="project-filter-btn px-5 py-2 text-sm font-medium hover:bg-gray-200 bg-gray-100 text-gray-800" data-filter="fullstack">
-          Full Stack
-        </button>
-        <button type="button" className="project-filter-btn px-5 py-2 text-sm font-medium hover:bg-gray-200 rounded-r-lg bg-gray-100 text-gray-800" data-filter="backend">
-          Backend
-        </button>
-      </div>
-    </div>
+   
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 project-container">
       <div className="project-card bg-white rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-category="fullstack" style={{display:"block"}}>

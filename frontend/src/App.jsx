@@ -9,7 +9,7 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <>
+    <div className="font-poppins">
       <Navbar />
       <Hero />
       <About />
@@ -19,7 +19,7 @@ function App() {
       <Education />
       <Services />
       <Contact />
-    </>
+    </div>
   );
 }
 

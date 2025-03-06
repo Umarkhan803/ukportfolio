@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 animate__animated animate__fadeInLeft">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="text-4xl md:text-6xl font-semibold mb-4">
               <span className="text-[#1E88E5]">MERN Stack</span>
               <span className="block">Developer</span>
             </h1>
-            <h2 className="text-xl md:text-2xl mb-6 text-gray-300">
+            <h2 className=" md:text-2xl mb-6 text-gray-300">
               Crafting innovative web solutions with
               <span className="text-[#FFC107]"> MongoDB, Express, React &amp; Node.js</span>
             </h2>

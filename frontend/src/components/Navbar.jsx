@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full bg-neutral-900 text-white py-4 px-6 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#hero" className="text-2xl font-bold text-white flex items-center">
-          <span className="text-[#FFC107] mr-2">MERN</span>Developer
+        <a href="#hero" className="text-2xl font-semibold text-white flex items-center">
+          <span className="text-[#FFC107] mr-2 ">MERN</span>Developer
         </a>
 
         {/* Desktop Menu */}

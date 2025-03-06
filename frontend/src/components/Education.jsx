@@ -4,7 +4,7 @@ const Education = () => {
     const educationData = [
         {
           year: "2012 - 2016",
-          degree: "Bachelor of Science in Computer Science",
+          degree: "Bachelor of Computer Application",
           institution: "University of Technology",
           description: "Graduated with honors. Focused on web development, databases, and software engineering. Participated in various hackathons and coding competitions.",
           iconBg: "bg-[#1E88E5]",

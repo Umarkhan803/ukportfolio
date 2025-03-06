@@ -7,11 +7,11 @@ const skillsData = [
     icon: "text-[#1E88E5]",
     description: "Building responsive and interactive user interfaces",
     skills: [
-      { name: "React.js", percentage: 95 },
-      { name: "JavaScript (ES6+)", percentage: 90 },
-      { name: "HTML5/CSS3", percentage: 95 },
-      { name: "Redux", percentage: 85 },
-      { name: "Tailwind CSS", percentage: 90 },
+      { name: "React.js", percentage: 95 , iconColor: "bg-[#1E88E5]", },
+      { name: "JavaScript (ES6+)", percentage: 90,iconColor: "bg-[#1E88E5]", },
+      { name: "HTML5/CSS3", percentage: 95,iconColor: "bg-[#1E88E5]", },
+      { name: "Redux", percentage: 85 ,iconColor: "bg-[#1E88E5]",},
+      { name: "Tailwind CSS", percentage: 90,iconColor: "bg-[#1E88E5]", },
     ],
   },
   {
@@ -20,11 +20,11 @@ const skillsData = [
     icon: "text-green-600",
     description: "Creating robust and scalable server solutions",
     skills: [
-      { name: "Node.js", percentage: 92 },
-      { name: "Express.js", percentage: 90 },
-      { name: "RESTful APIs", percentage: 95 },
-      { name: "Authentication/JWT", percentage: 85 },
-      { name: "GraphQL", percentage: 80 },
+      { name: "Node.js", percentage: 92,iconColor: "bg-green-600" },
+      { name: "Express.js", percentage: 90,iconColor: "bg-green-600" },
+      { name: "RESTful APIs", percentage: 95 ,iconColor: "bg-green-600"},
+      { name: "Authentication/JWT", percentage: 85,iconColor: "bg-green-600" },
+      { name: "GraphQL", percentage: 80 ,iconColor: "bg-green-600"},
     ],
   },
   {
@@ -33,11 +33,11 @@ const skillsData = [
     icon: "text-[#FFC107]",
     description: "Database management and deployment expertise",
     skills: [
-      { name: "MongoDB", percentage: 90 },
-      { name: "AWS/Heroku", percentage: 85 },
-      { name: "Docker", percentage: 80 },
-      { name: "CI/CD", percentage: 75 },
-      { name: "Git/GitHub", percentage: 95 },
+      { name: "MongoDB", percentage: 90,iconColor: "bg-[#FFC107]" },
+      { name: "AWS/Heroku", percentage: 85,iconColor: "bg-[#FFC107]" },
+      { name: "Docker", percentage: 80,iconColor: "bg-[#FFC107]" },
+      { name: "CI/CD", percentage: 75,iconColor: "bg-[#FFC107]" },
+      { name: "Git/GitHub", percentage: 95,iconColor: "bg-[#FFC107]" },
     ],
   },
 ];
@@ -78,7 +78,7 @@ const Skills = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-[#212121] mb-2">{skillCategory.category}</h3>
+                <h3 className="text-xl font-semibold text-[#212121] mb-2">{skillCategory.category}</h3>
                 <p className="text-gray-600 mb-6">{skillCategory.description}</p>
               </div>
 
@@ -86,11 +86,11 @@ const Skills = () => {
                 {skillCategory.skills.map((skill, skillIndex) => (
                   <div key={skillIndex}>
                     <div className="flex justify-between mb-1">
-                      <span className="font-medium text-[#212121]">{skill.name}</span>
+                      <span className="font-normal text-[#212121]">{skill.name}</span>
                       <span className="text-sm text-gray-500">{skill.percentage}%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div className={`h-2 rounded-full`} style={{ width: `${skill.percentage}%`, backgroundColor: skillCategory.icon.slice(5) }}></div>
+                      <div className={`h-2 ${skill.iconColor} rounded-full`} style={{ width: `${skill.percentage}%`, backgroundColor: skillCategory.icon.slice(5) }}></div>
                     </div>
                   </div>
                 ))}

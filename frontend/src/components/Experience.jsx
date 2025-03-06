@@ -3,9 +3,9 @@ import React from "react";
 const Experience = () => {
   const experiences = [
     {
-      period: "2021 - Present",
-      title: "Senior MERN Stack Developer",
-      company: "Tech Innovations Inc.",
+      period: "2025 - Present",
+      title: "Associate Software Engineer",
+      company: "Quantum Quest LLP.",
       description:
         "Leading the development of scalable web applications using MongoDB, Express.js, React, and Node.js. Implementing best practices and architectural patterns for performance optimization.",
       responsibilities: [
@@ -17,9 +17,9 @@ const Experience = () => {
       ],
     },
     {
-      period: "2018 - 2021",
-      title: "Full Stack Developer",
-      company: "Digital Solutions LLC",
+      period: "2024 - 2025",
+      title: "MERN Stack Developer",
+      company: "The Entrepreneurship Network",
       description:
         "Developed feature-rich web applications using the MERN stack. Implemented responsive designs and optimized application performance for seamless user experiences.",
       responsibilities: [
@@ -27,7 +27,7 @@ const Experience = () => {
         "Built RESTful APIs and integrated third-party services",
         "Implemented authentication and authorization using JWT",
         "Created responsive and mobile-friendly user interfaces",
-        "Collaborated with cross-f  unctional teams to deliver projects on schedule",
+        "Collaborated with cross-functional teams to deliver projects on schedule",
       ],
     },
     {
