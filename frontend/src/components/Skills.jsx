@@ -34,7 +34,7 @@ const skillsData = [
     description: "Database management and deployment expertise",
     skills: [
       { name: "MongoDB", percentage: 90,iconColor: "bg-[#FFC107]" },
-      { name: "AWS/Heroku", percentage: 85,iconColor: "bg-[#FFC107]" },
+      { name: "AWS", percentage: 85,iconColor: "bg-[#FFC107]" },
       { name: "Docker", percentage: 80,iconColor: "bg-[#FFC107]" },
       { name: "CI/CD", percentage: 75,iconColor: "bg-[#FFC107]" },
       { name: "Git/GitHub", percentage: 95,iconColor: "bg-[#FFC107]" },

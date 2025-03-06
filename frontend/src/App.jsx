@@ -6,7 +6,8 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Services from "./components/Services";
-import Contact from "./components/Contact";
+
+import ContactSection from "./components/ContactSection";
 function App() {
   return (
     <div className="font-poppins">
@@ -18,7 +19,7 @@ function App() {
       <Experience />
       <Education />
       <Services />
-      <Contact />
+      <ContactSection />
     </div>
   );
 }

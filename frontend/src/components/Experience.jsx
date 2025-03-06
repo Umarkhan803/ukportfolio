@@ -9,10 +9,10 @@ const Experience = () => {
       description:
         "Leading the development of scalable web applications using MongoDB, Express.js, React, and Node.js. Implementing best practices and architectural patterns for performance optimization.",
       responsibilities: [
-        "Lead a team of 5 developers to build and maintain enterprise-level web applications",
+        // "Lead a team of 5 developers to build and maintain enterprise-level web applications",
         "Architect scalable and maintainable codebases using MERN stack technologies",
-        "Implement CI/CD pipelines and DevOps best practices",
-        "Conduct code reviews and mentor junior developers",
+        // "Implement CI/CD pipelines and DevOps best practices",
+        // "Conduct code reviews and mentor junior developers",
         "Collaborate with product managers and designers to define product requirements",
       ],
     },
@@ -35,12 +35,12 @@ const Experience = () => {
       title: " Web Developer",
       company: "Afame Technology",
       description:
-        "Started my career as a junior developer focusing on front-end development. Gradually transitioned to full-stack development with MERN technologies.",
+        "Started my career as a developer focusing on front-end development. Gradually transitioned to full-stack development with HTML, CSS, JS technologies.",
       responsibilities: [
         "Developed and maintained client websites and web applications",
         "Implemented responsive UIs using HTML5, CSS3, and JavaScript",
-        "Learned and applied React.js for front-end development",
-        "Assisted in building back-end services with Node.js and Express",
+        // "Learned and applied React.js for front-end development",
+        // "Assisted in building back-end services with Node.js and Express",
         "Participated in team code reviews and technical discussions",
       ],
     },

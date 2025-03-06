@@ -11,7 +11,7 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-[#212121] mb-4">About Me</h2>
-          <div className="w-24 h-1 bg-[#FFC107] mx-auto mb-8"></div>
+          <div className="w-24  h-1 bg-[#FFC107] mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Passionate MERN stack developer with expertise in building modern,
             responsive web applications.
@@ -21,22 +21,11 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Profile Card */}
           <div className="md:w-2/5 animate__animated animate__fadeInLeft">
-            <div className="relative">
-              <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-[#1E88E5] to-[#FFC107] opacity-75 blur"></div>
-              <div className="relative bg-white p-4 rounded-lg shadow-lg">
-                <div className="aspect-square bg-neutral-200 rounded-lg flex items-center justify-center">
-                  <svg
-                    className="w-32 h-32 text-neutral-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
+            <div className="relative ">
+              <div className="absolute -inset-1 rounded-[50%] bg-gradient-to-r from-[#1E88E5] to-[#FFC107] opacity-75 blur"></div>
+              <div className="relative bg-white p-4  shadow-lg rounded-[50%]">
+                <div className="aspect-square bg-neutral-200 rounded-[50%] flex items-center justify-center">
+                 <img className=" rounded-[50%] h-[100%] w-[100%]" src="profile.jpeg" alt="profile" />
                 </div>
               </div>
             </div>
